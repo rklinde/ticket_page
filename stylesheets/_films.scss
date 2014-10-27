@@ -1,0 +1,70 @@
+.schoolslist {
+	display: block;
+
+	@media all and (min-width: 401px){
+		display: inline-block;
+	}
+}
+
+#listing {
+
+
+	ul {
+		float: left;
+
+		@media all and (min-width: 401px) {
+			width: 400px;
+		}
+		
+		vertical-align: top;
+
+			li {
+				display: inline;
+			}
+	}
+}
+					
+.films {
+	// display: inline;
+
+		.eventinfo {
+			vertical-align: top;
+
+			.eventimage {
+				width: 100px;
+
+				@media all and (min-width: 401px){
+					width: 150px;
+				}
+				
+			}
+		}
+
+		.eventdetails {
+			vertical-align: top;
+		}	
+
+}
+
+
+#LIST_VIEW {
+	
+	ul {
+		float: left;
+
+		li {
+			display: inline;
+		}
+	}
+}
+
+#tw-modal {
+
+	ul {
+		padding: 0px;
+		margin: 0 auto;
+	}
+	
+}
+
+

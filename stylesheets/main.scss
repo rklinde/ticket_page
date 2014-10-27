@@ -1,0 +1,38 @@
+@import '../bourbon/bourbon';
+@import 'spacer';
+@import 'columns';
+@import 'fonts';
+@import 'logo';
+@import 'colors';
+@import 'classifications';
+@import 'nav';
+@import 'buttons';
+@import 'forms';
+@import 'modal';
+@import 'films';
+
+body {
+	font-family: Helvetica, sans-serif;
+
+	p {
+		padding: 5px;
+	}
+
+}
+
+a {
+    color: $default;
+    text-decoration: none;
+    // text-transform: uppercase;
+
+
+    &:hover {
+        color: $blue;
+    }
+
+}
+
+#container {
+	margin: 0 auto;
+	width: 90%;
+}

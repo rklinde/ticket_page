@@ -1,0 +1,15 @@
+.logo {
+	background: url("../Images/logobox.png") no-repeat;
+	height: 145px;
+	width: 300px;
+	margin: 0 auto;
+}
+
+	@media all and (min-width: 401px) {
+		.logo {
+			background: url("../Images/logoboxSm.png") no-repeat;
+			height: 125px;
+			display: block;
+		}
+	}
+

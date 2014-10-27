@@ -1,0 +1,17 @@
+input {
+	border: 1px solid $blue;
+	border-radius: 7px;
+	outline: none;
+	padding: 5px;
+	width: 150px;
+
+	@media all and (min-width: 401px) {
+		width: 250px;
+	}
+}
+
+textarea {
+	@extend input;
+	background-color: rgba(102,153,255, .25);
+	// height: 200px;
+}

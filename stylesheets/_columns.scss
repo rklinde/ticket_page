@@ -1,0 +1,28 @@
+@for $i from 1 through 6 {
+	.col-#{$i}{
+		width: 100%;
+		box-sizing: border-box;
+		text-align: center;
+		padding: 5px 5px;
+		display: block;
+		vertical-align: top;
+
+		@media all and (min-width: 401px) {
+			width: (100/$i) * 1%;
+			float: left;
+		}
+	}
+}
+
+.right {
+	text-align: center;
+	vertical-align: center;
+	display: block;
+	padding: 5px 5px;
+
+	@media all and (min-width: 401px) {
+		text-align: right;
+		vertical-align: center;
+		float: left;
+	}
+}
